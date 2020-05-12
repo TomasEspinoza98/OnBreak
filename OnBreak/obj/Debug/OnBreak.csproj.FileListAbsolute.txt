@@ -52,3 +52,5 @@ C:\Users\HP\Documents\Duoc\tercer semestre\desarrollo de software de escritorio\
 C:\Users\HP\Documents\Duoc\tercer semestre\desarrollo de software de escritorio\OnBreak\OnBreak\obj\Debug\OnBreak.csproj.CopyComplete
 C:\Users\HP\Documents\Duoc\tercer semestre\desarrollo de software de escritorio\OnBreak\OnBreak\obj\Debug\OnBreak.exe
 C:\Users\HP\Documents\Duoc\tercer semestre\desarrollo de software de escritorio\OnBreak\OnBreak\obj\Debug\OnBreak.pdb
+C:\Users\HP\Documents\Duoc\tercer semestre\desarrollo de software de escritorio\OnBreak\OnBreak\obj\Debug\vistas\AgregarPersona.g.cs
+C:\Users\HP\Documents\Duoc\tercer semestre\desarrollo de software de escritorio\OnBreak\OnBreak\obj\Debug\vistas\AgregarPersona.baml

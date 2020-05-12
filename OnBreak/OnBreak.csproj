@@ -64,9 +64,16 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="vistas\AgregarPersona.xaml.cs">
+      <DependentUpon>AgregarPersona.xaml</DependentUpon>
+    </Compile>
     <Compile Include="vistas\AdminCliente.xaml.cs">
       <DependentUpon>AdminCliente.xaml</DependentUpon>
     </Compile>
+    <Page Include="vistas\AgregarPersona.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
