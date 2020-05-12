@@ -16,18 +16,13 @@ using System.Windows.Shapes;
 namespace OnBreak
 {
     /// <summary>
-    /// Lógica de interacción para AgregarPersona.xaml
+    /// Lógica de interacción para BuscarCliente.xaml
     /// </summary>
-    public partial class AgregarPersona : MetroWindow
+    public partial class ListadoCliente : MetroWindow
     {
-        public AgregarPersona()
+        public ListadoCliente()
         {
             InitializeComponent();
-        }
-
-        private void Tile_Click(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }

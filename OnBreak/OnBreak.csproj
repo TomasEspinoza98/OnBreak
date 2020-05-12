@@ -64,12 +64,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="vistas\ListadoCliente.xaml.cs">
+      <DependentUpon>ListadoCliente.xaml</DependentUpon>
+    </Compile>
     <Compile Include="vistas\AgregarPersona.xaml.cs">
       <DependentUpon>AgregarPersona.xaml</DependentUpon>
     </Compile>
     <Compile Include="vistas\AdminCliente.xaml.cs">
       <DependentUpon>AdminCliente.xaml</DependentUpon>
     </Compile>
+    <Page Include="vistas\ListadoCliente.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="vistas\AgregarPersona.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -128,7 +135,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="assets\" />
+    <Resource Include="assets\listadoPersonas.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\WindowsIcons-license.txt" />
@@ -137,19 +144,16 @@
     <Resource Include="Resources\Entypo-license.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="vistas\agregarCliente.png" />
+    <Resource Include="assets\agregarCliente.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="vistas\logousado.jpg" />
+    <Resource Include="assets\logousado.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="vistas\eliminarCliente.png" />
+    <Resource Include="assets\eliminarCliente.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="vistas\actualizarCliente.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="vistas\buscarCliente.png" />
+    <Resource Include="assets\actualizarCliente.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -27,5 +27,10 @@ namespace OnBreak.vistas {
             AgregarPersona agregar = new AgregarPersona();
             agregar.Show();
         }
+
+        private void ActualizarCliente(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
