@@ -10,5 +10,8 @@
         <Grid Margin="0,0,0,321" Background="#1290cb">
             <Image Source="assets/imagenes/logousado.jpg" Height="100" Margin="137,0,135,0" HorizontalAlignment="Center"/>
         </Grid>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="166,194,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+
+
     </Grid>
 </Controls:MetroWindow>

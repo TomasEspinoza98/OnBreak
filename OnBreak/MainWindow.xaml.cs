@@ -24,7 +24,10 @@ namespace OnBreak {
             InitializeComponent();
         }
 
+        private void Button_Click(object sender, RoutedEventArgs e) {
+            AdminCliente ventana = new AdminCliente();
 
-       
+            ventana.Show();
+        }
     }
 }
