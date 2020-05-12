@@ -37,6 +37,7 @@
         <TextBox x:Name="txtCorreoElec" HorizontalAlignment="Left" Height="23" Margin="24,461,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
         <RadioButton Content="Masculino" HorizontalAlignment="Left" Margin="245,294,0,0" VerticalAlignment="Top" Foreground="#FFEBEBEB"/>
         <RadioButton Content="Femenino" HorizontalAlignment="Left" Margin="245,324,0,0" VerticalAlignment="Top" Foreground="#FFEBEBEB"/>
+        //hola tomy
     </Grid>
     
 </Controls:MetroWindow>
