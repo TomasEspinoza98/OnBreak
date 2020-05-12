@@ -8,6 +8,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+<<<<<<< HEAD
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("administracionpersonas.png")]
+=======
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("vistas/buscarcliente.png")]
+>>>>>>> 1ef4a59a1b35373e11cb42ccb4cee25f099030ae
 
 
