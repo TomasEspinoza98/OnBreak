@@ -5,12 +5,27 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro" 
     mc:Ignorable="d"
-    Title="MainWindow" Width="350" Height="450">
-    <Grid Background="#333333">
+    Title="OnBreak" Width="308" Height="450" Background="White">
+    <Grid Background="#333333" Margin="0,0,0,-10">
         <Grid Margin="0,0,0,321" Background="#1290cb">
-            <Image Source="assets/imagenes/logousado.jpg" Height="100" Margin="137,0,135,0" HorizontalAlignment="Center"/>
+            <Image Source="logousado.jpg" Margin="93,0,109,0" HorizontalAlignment="Center" Width="98"/>
         </Grid>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="166,194,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+
+        <Controls:Tile Margin="10,115,165,179" Height="Auto" Width="Auto" Background="Black" Click="Tile_Click">
+            <Image Source="administracionPersonas.png" Height="134" Width="136" RenderTransformOrigin="0.463,0.599"/>
+        </Controls:Tile>
+
+        <Controls:Tile Margin="165,115,10,179" Height="Auto" Width="Auto" Background="Black" Click="Tile_Click">
+            <Image Source="listadoPersonas.png" Height="134" Width="134" RenderTransformOrigin="0.463,0.599"/>
+        </Controls:Tile>
+
+        <Controls:Tile Margin="10,264,165,30" Height="Auto" Width="Auto" Background="Black" Click="Tile_Click">
+            <Image Source="administracionContratos.png" Height="147" Width="138" RenderTransformOrigin="0.463,0.599"/>
+        </Controls:Tile>
+
+        <Controls:Tile Margin="165,264,10,30" Height="Auto" Width="Auto" Background="Black" Click="Tile_Click">
+            <Image Source="administracionContratos.png" Height="147" Width="143" RenderTransformOrigin="0.463,0.599"/>
+        </Controls:Tile>
 
 
     </Grid>

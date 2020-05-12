@@ -132,5 +132,14 @@
   <ItemGroup>
     <Resource Include="administracionPersonas.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="logousado.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="listadoPersonas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="administracionContratos.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
