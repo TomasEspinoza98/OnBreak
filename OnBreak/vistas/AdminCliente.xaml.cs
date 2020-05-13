@@ -42,6 +42,7 @@ namespace OnBreak.vistas {
 
         }
 
+
         private void EliminarCliente(object sender, RoutedEventArgs e)
         {
             EliminarCliente eliminar = new EliminarCliente();
