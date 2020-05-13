@@ -28,5 +28,17 @@ namespace OnBreak {
             AdminCliente admCliente = new AdminCliente();
             admCliente.Show();
         }
+
+        private void listadoCliente(object sender, RoutedEventArgs e) {
+            
+        }
+
+        private void administracionContrato(object sender, RoutedEventArgs e) {
+
+        }
+
+        private void listadoContratos(object sender, RoutedEventArgs e) {
+
+        }
     }
 }
