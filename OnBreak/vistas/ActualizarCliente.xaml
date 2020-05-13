@@ -9,7 +9,9 @@
         xmlns:local="clr-namespace:OnBreak"
         mc:Ignorable="d"
         Title="ActualizarCliente" Height="528" Width="500">
-    <Grid>
+    <Grid>   
+        
+        
         
     </Grid>
 </Controls:MetroWindow>
