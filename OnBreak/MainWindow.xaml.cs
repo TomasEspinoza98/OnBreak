@@ -19,6 +19,7 @@ namespace OnBreak {
     public partial class MainWindow : MetroWindow {
 
 
+
         public MainWindow() {
             InitializeComponent();
             this.ResizeMode = System.Windows.ResizeMode.NoResize;
