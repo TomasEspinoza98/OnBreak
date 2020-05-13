@@ -21,7 +21,7 @@
             <Image Source="../assets/actualizarCliente.png" Height="100" Width="100"/>
         </Controls:Tile>
         
-        <Controls:Tile Margin="10,168,383.6,230.4" Height="100" Width="100" Background="Black" Click="Tile_Click_1">
+        <Controls:Tile Margin="10,168,383.6,230.4" Height="100" Width="100" Background="Black" >
             <Image Source="../assets/agregarCliente.png" Height="100" Width="100"/>
         </Controls:Tile>
 
