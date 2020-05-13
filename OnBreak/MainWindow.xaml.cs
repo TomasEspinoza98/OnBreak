@@ -25,9 +25,8 @@ namespace OnBreak {
         }
 
         private void Tile_Click(object sender, RoutedEventArgs e) {
-            AdminCliente ventana = new AdminCliente();
-
-            ventana.Show();
+            AdminCliente window = new AdminCliente();
+            window.Show();
         }
     }
 }
