@@ -16,17 +16,8 @@
             <Label Content="" HorizontalAlignment="Left" Margin="331,103,0,6"/>
         </Grid>
         <Controls:Tile Margin="134,168,259.6,230.4" Height="100" Width="100" Background="Black" Click="ListadoCliente">
-            <Image Source="../assets/iconos/administracionCliente/agregarPersona/listadoPersonas.png" Height="100" Width="100" RenderTransformOrigin="0.5,0.5">
-                <Image.RenderTransform>
-                    <TransformGroup>
-                        <ScaleTransform/>
-                        <SkewTransform AngleX="-0.739"/>
-                        <RotateTransform Angle="-0.585"/>
-                        <TranslateTransform X="0.187" Y="0.002"/>
-                    </TransformGroup>
-                </Image.RenderTransform>
+            <Image Source="../assets/iconos/administracionCliente/agregarPersona/listadoPersonas.png" Height="100" Width="100" RenderTransformOrigin="0.5,0.5"/>
 
-            </Image>
         </Controls:Tile>
         <Controls:Tile Margin="257,168,136.6,230.4" Height="100" Width="100" Background="Black" Click="ActualizarCliente">
             <Image Source="../assets/iconos/administracionCliente/agregarPersona/actualizarCliente.png" Height="100" Width="100"/>
