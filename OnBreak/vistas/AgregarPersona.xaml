@@ -12,6 +12,7 @@
     <Grid Background="#333" >
         <Grid Margin="0,0,-0.4,363.4" Background="#1290cb">
             <Image Source="../assets/imagenes/logousado.jpg" Margin="170,0,196,0" HorizontalAlignment="Center" Width="128" />
+            <TextBox x:Name="txtBuscarRut" HorizontalAlignment="Left" Height="23" Margin="374,99,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
         </Grid>
         <Controls:Tile Margin="134,168,259.6,230.4" Height="100" Width="100" Background="Black">
             <Image Source="../assets/iconos/administracionCliente/agregarPersona/listadoPersonas.png" Height="100" Width="100" RenderTransformOrigin="0.5,0.5"/>

@@ -27,12 +27,14 @@ namespace OnBreak.vistas {
         {
             AgregarPersona agregar = new AgregarPersona();
             agregar.Show();
+            agregar.ResizeMode = System.Windows.ResizeMode.NoResize;
         }
 
         private void ListadoCliente(object sender, RoutedEventArgs e)
         {
-            ListadoCliente agregar = new ListadoCliente();
-            agregar.Show();
+            ListadoCliente listado = new ListadoCliente();
+            listado.Show();
+            listado.ResizeMode = System.Windows.ResizeMode.NoResize;
         }
 
         private void ActualizarCliente(object sender, RoutedEventArgs e)
@@ -42,7 +44,9 @@ namespace OnBreak.vistas {
 
         private void EliminarCliente(object sender, RoutedEventArgs e)
         {
-
+            EliminarCliente eliminar = new EliminarCliente();
+            eliminar.Show();
+            eliminar.ResizeMode = System.Windows.ResizeMode.NoResize;
         }
     }
 }

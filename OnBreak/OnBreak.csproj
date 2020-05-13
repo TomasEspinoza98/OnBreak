@@ -64,6 +64,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="vistas\EliminarCliente.xaml.cs">
+      <DependentUpon>EliminarCliente.xaml</DependentUpon>
+    </Compile>
     <Compile Include="vistas\ListadoCliente.xaml.cs">
       <DependentUpon>ListadoCliente.xaml</DependentUpon>
     </Compile>
@@ -73,6 +76,10 @@
     <Compile Include="vistas\AdminCliente.xaml.cs">
       <DependentUpon>AdminCliente.xaml</DependentUpon>
     </Compile>
+    <Page Include="vistas\EliminarCliente.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="vistas\ListadoCliente.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -170,6 +177,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="assets\iconos\administracionCliente\agregarPersona\listadoPersonas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="assets\iconos\administracionCliente\lupa.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
