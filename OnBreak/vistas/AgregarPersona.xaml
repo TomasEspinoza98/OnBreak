@@ -14,7 +14,7 @@
             <Image Source="../assets/imagenes/logousado.jpg" Margin="170,0,196,0" HorizontalAlignment="Center" Width="128" />
         </Grid>
         <Controls:Tile Margin="134,168,259.6,230.4" Height="100" Width="100" Background="Black">
-            <Image Source="../assets/iconos/administracionCliente/agregarPersona//buscarCliente.png" Height="100" Width="100" RenderTransformOrigin="0.5,0.5"/>
+            <Image Source="../assets/iconos/administracionCliente/agregarPersona/listadoPersonas.png" Height="100" Width="100" RenderTransformOrigin="0.5,0.5"/>
         </Controls:Tile>
         <Controls:Tile Margin="257,168,136.6,230.4" Height="100" Width="100" Background="Black">
             <Image Source="../assets/iconos/administracionCliente/agregarPersona/actualizarCliente.png" Height="100" Width="100"/>
