@@ -16,12 +16,11 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace OnBreak {
-    /// <summary>
-    /// Lógica de interacción para MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : MetroWindow {
+
         public MainWindow() {
             InitializeComponent();
+            this.ResizeMode = System.Windows.ResizeMode.NoResize;
         }
 
         private void administracionCliente(object sender, RoutedEventArgs e) {
@@ -30,7 +29,9 @@ namespace OnBreak {
         }
 
         private void listadoCliente(object sender, RoutedEventArgs e) {
-            
+            ListadoCliente listCliente = new ListadoCliente();
+            listCliente.Show();
+            listCliente.ResizeMode = System.Windows.ResizeMode.NoResize;
         }
 
 
