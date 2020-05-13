@@ -13,22 +13,19 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace OnBreak.vistas {
+namespace OnBreak
+{
     /// <summary>
-    /// Lógica de interacción para Window1.xaml
+    /// Lógica de interacción para AgregarPersona.xaml
     /// </summary>
-    public partial class AdminCliente : MetroWindow {
-        public AdminCliente() {
+    public partial class AgregarPersona : MetroWindow
+    {
+        public AgregarPersona()
+        {
             InitializeComponent();
         }
 
-        private void Tile_Click_1(object sender, RoutedEventArgs e)
-        {
-            AgregarPersona agregar = new AgregarPersona();
-            agregar.Show();
-        }
-
-        private void ActualizarCliente(object sender, RoutedEventArgs e)
+        private void Tile_Click(object sender, RoutedEventArgs e)
         {
 
         }

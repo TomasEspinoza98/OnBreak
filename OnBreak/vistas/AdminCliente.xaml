@@ -12,10 +12,11 @@
 
     <Grid Background="#333" >
         <Grid Margin="0,0,-0.4,363.4" Background="#1290cb">
-            <Image Source="logousado.jpg" Margin="170,0,196,0" HorizontalAlignment="Center" Width="128" />
+            <Image Source="../assets/logousado.jpg" Margin="170,0,196,0" HorizontalAlignment="Center" Width="128"/>
+            <Label Content="" HorizontalAlignment="Left" Margin="331,103,0,6"/>
         </Grid>
-        <Controls:Tile Margin="380,168,9.6,230.4" Height="100" Width="100" Background="Black">
-            <Image Source="buscarCliente.png" Height="100" Width="100" RenderTransformOrigin="0.5,0.5">
+        <Controls:Tile Margin="134,168,259.6,230.4" Height="100" Width="100" Background="Black" Click="ActualizarCliente">
+            <Image Source="../assets/listadoPersonas.png" Height="100" Width="100" RenderTransformOrigin="0.5,0.5">
                 <Image.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -27,16 +28,17 @@
 
             </Image>
         </Controls:Tile>
-        <Controls:Tile Margin="257,168,136.6,230.4" Height="100" Width="100" Background="Black">
-            <Image Source="actualizarCliente.png" Height="100" Width="100"/>
+        <Controls:Tile Margin="257,168,136.6,230.4" Height="100" Width="100" Background="Black" Click="ActualizarCliente">
+            <Image Source="../assets/actualizarCliente.png" Height="69" Width="63"/>
         </Controls:Tile>
-        <Controls:Tile Margin="10,168,383.6,230.4" Height="100" Width="100" Background="Black">
-            <Image Source="agregarCliente.png" Height="100" Width="100"/>
+        <Controls:Tile Margin="10,168,383.6,230.4" Height="100" Width="100" Background="Black" Click="AgregarCliente">
+            <Image Source="../assets/agregarCliente.png" Height="65" Width="74"/>
         </Controls:Tile>
 
-        <Controls:Tile Margin="135,168,258.6,230.4" Height="100" Width="100" Background="Black">
-            <Image Source="eliminarCliente.png" Height="100" Width="100"/>
+        <Controls:Tile Margin="384,168,9.6,230.4" Height="100" Width="100" Background="Black">
+            <Image Source="../assets/eliminarCliente.png" Height="100" Width="100"/>
         </Controls:Tile>
+        <DataGrid HorizontalAlignment="Left" Height="172" Margin="10,305,0,0" VerticalAlignment="Top" Width="474"/>
     </Grid>
 
 
