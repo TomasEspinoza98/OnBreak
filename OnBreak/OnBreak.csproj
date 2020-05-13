@@ -135,16 +135,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="assets\listadoPersonas.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Resources\WindowsIcons-license.txt" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\Entypo-license.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="administracionPersonas.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="logousado.jpg" />
@@ -153,7 +147,24 @@
     <Resource Include="listadoPersonas.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="administracionContratos.png" />
+    <Resource Include="assets\iconos\administracionCliente\agregarPersona\actualizarCliente.png" />
+    <Resource Include="assets\iconos\administracionCliente\agregarPersona\agregar%28MAS%29.png" />
+    <Resource Include="assets\iconos\administracionCliente\agregarPersona\agregarCliente.png" />
+    <Resource Include="assets\iconos\administracionCliente\agregarPersona\buscarCliente.png" />
+    <Resource Include="assets\iconos\administracionCliente\agregarPersona\eliminarCliente.png" />
+    <Resource Include="assets\iconos\atras\atras.png" />
+    <Resource Include="assets\iconos\ventanaPrincipal\administracionContratos.png" />
+    <Resource Include="assets\iconos\ventanaPrincipal\administracionPersonas.png" />
+    <Resource Include="assets\iconos\ventanaPrincipal\listadoContratos.png" />
+    <Resource Include="assets\iconos\ventanaPrincipal\listadoPersonas.png" />
+    <Resource Include="assets\imagenes\dark_logo_transparent_background.png" />
+    <Resource Include="assets\imagenes\dark_logo_white_background.jpg" />
+    <Resource Include="assets\imagenes\Logo Duoc UC Escuela IT.jpg" />
+    <Resource Include="assets\imagenes\logo.png" />
+    <Resource Include="assets\imagenes\logousado.jpg" />
+    <Resource Include="assets\imagenes\logowhite.jpg" />
+    <Resource Include="assets\imagenes\white_logo_dark_background.jpg" />
+    <Resource Include="assets\imagenes\white_logo_transparent_background.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

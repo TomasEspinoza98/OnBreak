@@ -24,9 +24,9 @@ namespace OnBreak {
             InitializeComponent();
         }
 
-        private void Tile_Click(object sender, RoutedEventArgs e) {
-            AdminCliente window = new AdminCliente();
-            window.Show();
+        private void administracionCliente(object sender, RoutedEventArgs e) {
+            AdminCliente admCliente = new AdminCliente();
+            admCliente.Show();
         }
     }
 }
