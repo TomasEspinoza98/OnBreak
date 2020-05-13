@@ -144,16 +144,16 @@
     <Resource Include="Resources\Entypo-license.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="assets\agregarCliente.png" />
+    <Resource Include="administracionPersonas.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="assets\logousado.jpg" />
+    <Resource Include="logousado.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="assets\eliminarCliente.png" />
+    <Resource Include="listadoPersonas.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="assets\actualizarCliente.png" />
+    <Resource Include="administracionContratos.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
