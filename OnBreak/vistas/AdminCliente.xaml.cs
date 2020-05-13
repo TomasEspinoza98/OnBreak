@@ -32,5 +32,10 @@ namespace OnBreak.vistas {
         {
 
         }
+
+        private void AgregarCliente(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
