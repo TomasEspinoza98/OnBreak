@@ -147,6 +147,16 @@
     <Resource Include="listadoPersonas.png" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="assets\imagenes\dark_logo_transparent_background.png" />
+    <Resource Include="assets\imagenes\dark_logo_white_background.jpg" />
+    <Resource Include="assets\imagenes\Logo Duoc UC Escuela IT.jpg" />
+    <Resource Include="assets\imagenes\logo.png" />
+    <Resource Include="assets\imagenes\logousado.jpg" />
+    <Resource Include="assets\imagenes\logowhite.jpg" />
+    <Resource Include="assets\imagenes\white_logo_dark_background.jpg" />
+    <Resource Include="assets\imagenes\white_logo_transparent_background.png" />
+  </ItemGroup>
+  <ItemGroup>
     <Resource Include="assets\iconos\administracionCliente\agregarPersona\actualizarCliente.png" />
     <Resource Include="assets\iconos\administracionCliente\agregarPersona\agregar%28MAS%29.png" />
     <Resource Include="assets\iconos\administracionCliente\agregarPersona\agregarCliente.png" />
@@ -157,14 +167,9 @@
     <Resource Include="assets\iconos\ventanaPrincipal\administracionPersonas.png" />
     <Resource Include="assets\iconos\ventanaPrincipal\listadoContratos.png" />
     <Resource Include="assets\iconos\ventanaPrincipal\listadoPersonas.png" />
-    <Resource Include="assets\imagenes\dark_logo_transparent_background.png" />
-    <Resource Include="assets\imagenes\dark_logo_white_background.jpg" />
-    <Resource Include="assets\imagenes\Logo Duoc UC Escuela IT.jpg" />
-    <Resource Include="assets\imagenes\logo.png" />
-    <Resource Include="assets\imagenes\logousado.jpg" />
-    <Resource Include="assets\imagenes\logowhite.jpg" />
-    <Resource Include="assets\imagenes\white_logo_dark_background.jpg" />
-    <Resource Include="assets\imagenes\white_logo_transparent_background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="assets\iconos\administracionCliente\agregarPersona\listadoPersonas.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

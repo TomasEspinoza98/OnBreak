@@ -11,20 +11,20 @@
         Title="AgregarPersona" Height="528" Width="500">
     <Grid Background="#333" >
         <Grid Margin="0,0,-0.4,363.4" Background="#1290cb">
-            <Image Source="../assets/logousado.jpg" Margin="170,0,196,0" HorizontalAlignment="Center" Width="128" />
+            <Image Source="../assets/imagenes/logousado.jpg" Margin="170,0,196,0" HorizontalAlignment="Center" Width="128" />
         </Grid>
         <Controls:Tile Margin="134,168,259.6,230.4" Height="100" Width="100" Background="Black">
-            <Image Source="../assets/buscarCliente.png" Height="100" Width="100" RenderTransformOrigin="0.5,0.5"/>
+            <Image Source="../assets/iconos/administracionCliente/agregarPersona//buscarCliente.png" Height="100" Width="100" RenderTransformOrigin="0.5,0.5"/>
         </Controls:Tile>
         <Controls:Tile Margin="257,168,136.6,230.4" Height="100" Width="100" Background="Black">
-            <Image Source="../assets/actualizarCliente.png" Height="100" Width="100"/>
+            <Image Source="../assets/iconos/administracionCliente/agregarPersona/actualizarCliente.png" Height="100" Width="100"/>
         </Controls:Tile>
-        <Controls:Tile Margin="10,168,383.6,230.4" Height="100" Width="100" Background="Black" Click="Tile_Click">
-            <Image Source="../assets/agregarCliente.png" Height="51" Width="71"/>
+        <Controls:Tile Margin="10,168,383.6,230.4" Height="100" Width="100" Background="Black">
+            <Image Source="../assets/iconos/administracionCliente/agregarPersona/agregarCliente.png" Height="100" Width="100"/>
         </Controls:Tile>
 
         <Controls:Tile Margin="384,168,9.6,230.4" Height="100" Width="100" Background="Black">
-            <Image Source="../assets/eliminarCliente.png" Height="100" Width="100"/>
+            <Image Source="../assets/iconos/administracionCliente/agregarPersona/eliminarCliente.png" Height="100" Width="100"/>
         </Controls:Tile>
         <Label x:Name="lblNombre" Content="Nombre" HorizontalAlignment="Left" Margin="24,290,0,0" VerticalAlignment="Top" Foreground="#FFEBEBEB" />
         <Label x:Name="lblCorreoElec" Content="Correo Electronico" HorizontalAlignment="Left" Margin="24,435,0,0" VerticalAlignment="Top" Foreground="#FFEBEBEB" />

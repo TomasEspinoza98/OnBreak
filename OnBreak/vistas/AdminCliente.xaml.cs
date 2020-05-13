@@ -22,13 +22,25 @@ namespace OnBreak.vistas {
             InitializeComponent();
         }
 
-        private void Tile_Click_1(object sender, RoutedEventArgs e)
+
+        private void AgregarCliente(object sender, RoutedEventArgs e)
         {
             AgregarPersona agregar = new AgregarPersona();
             agregar.Show();
         }
 
+        private void ListadoCliente(object sender, RoutedEventArgs e)
+        {
+            ListadoCliente agregar = new ListadoCliente();
+            agregar.Show();
+        }
+
         private void ActualizarCliente(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void EliminarCliente(object sender, RoutedEventArgs e)
         {
 
         }
