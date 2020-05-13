@@ -64,6 +64,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="vistas\ActualizarClientes.xaml.cs">
+      <DependentUpon>ActualizarClientes.xaml</DependentUpon>
+    </Compile>
     <Compile Include="vistas\EliminarCliente.xaml.cs">
       <DependentUpon>EliminarCliente.xaml</DependentUpon>
     </Compile>
@@ -76,6 +79,10 @@
     <Compile Include="vistas\AdminCliente.xaml.cs">
       <DependentUpon>AdminCliente.xaml</DependentUpon>
     </Compile>
+    <Page Include="vistas\ActualizarClientes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="vistas\EliminarCliente.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
