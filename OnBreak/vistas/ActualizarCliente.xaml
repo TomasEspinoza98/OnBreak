@@ -27,6 +27,8 @@
         <Controls:Tile Margin="10,168,383.6,230.4" Height="100" Width="100" Background="Black"  Click="AgregarCliente">
             <Image Source="../assets/iconos/administracionCliente/agregarPersona/agregarCliente.png" Height="100" Width="100"/>
         </Controls:Tile>
+        
+        
 
         <Controls:Tile Margin="384,168,9.6,230.4" Height="100" Width="100" Background="Black" Click="EliminarCliente">
             <Image Source="../assets/iconos/administracionCliente/agregarPersona/eliminarCliente.png" Height="100" Width="100"/>
