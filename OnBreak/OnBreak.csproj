@@ -76,6 +76,9 @@
     <Compile Include="vistas\AdminCliente.xaml.cs">
       <DependentUpon>AdminCliente.xaml</DependentUpon>
     </Compile>
+    <Compile Include="vistas\ListadoClientesPrincipal.xaml.cs">
+      <DependentUpon>ListadoClientesPrincipal.xaml</DependentUpon>
+    </Compile>
     <Page Include="vistas\EliminarCliente.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -113,6 +116,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="vistas\AdminContratos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="vistas\ListadoClientesPrincipal.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

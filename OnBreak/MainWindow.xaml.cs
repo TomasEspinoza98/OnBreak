@@ -31,9 +31,9 @@ namespace OnBreak {
         }
 
         private void listadoCliente(object sender, RoutedEventArgs e) {
-            ListadoCliente listCliente = new ListadoCliente();
-            listCliente.Show();
-            listCliente.ResizeMode = System.Windows.ResizeMode.NoResize;
+            ListadoClientesPrincipal listClientes = new ListadoClientesPrincipal();
+            listClientes.Show();
+            Close();
         }
 
 
