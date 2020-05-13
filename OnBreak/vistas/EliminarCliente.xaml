@@ -30,5 +30,8 @@
         </Controls:Tile>
         <Label x:Name="lblRut" Content="Ingrese el rut del cliente que desea eliminar" HorizontalAlignment="Left" Margin="30,290,0,0" VerticalAlignment="Top" Foreground="#FFEBEBEB"/>
         <TextBox x:Name="txtRut" HorizontalAlignment="Left" Height="23" Margin="30,321,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
-    </Grid>
+    </Grid>   
+    
+    
+    
 </Controls:MetroWindow>
