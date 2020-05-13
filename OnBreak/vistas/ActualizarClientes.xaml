@@ -9,6 +9,7 @@
         xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
         mc:Ignorable="d"
         Title="ActualizarClientes"  Height="528" Width="500">
+    
     <Grid Background="#333" >
         <Grid Margin="0,0,-0.4,363.4" Background="#1290cb">
             <Image Source="../assets/imagenes/logousado.jpg" Margin="170,0,196,0" HorizontalAlignment="Center" Width="128" />
