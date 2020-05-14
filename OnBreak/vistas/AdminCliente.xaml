@@ -8,7 +8,7 @@
         xmlns:behaviours="clr-namespace:MahApps.Metro.Behaviours;assembly=MahApps.Metro"
         xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
         mc:Ignorable="d"
-        Title="AdminCliente" Height="528" Width="500">
+        Title="Administracion de cliente" Height="528" Width="500">
 
     <Grid Background="#333" >
         <Grid Margin="0,0,-0.4,363.4" Background="#1290cb">
@@ -21,7 +21,7 @@
             <Image Source="../assets/iconos/administracionCliente/agregarPersona/listadoPersonas.png" Height="100" Width="100" RenderTransformOrigin="0.5,0.5"/>
 
         </Controls:Tile>
-        <Controls:Tile Margin="257,168,136.6,230.4" Height="100" Width="100" Background="Black">
+        <Controls:Tile Margin="257,168,136.6,230.4" Height="100" Width="100" Background="Black" Click="ActualizarCliente">
             <Image Source="../assets/iconos/administracionCliente/agregarPersona/actualizarCliente.png" Height="100" Width="100"/>
         </Controls:Tile>
         <Controls:Tile Margin="10,168,383.6,230.4" Height="100" Width="100" Background="Black"  Click="AgregarCliente">
