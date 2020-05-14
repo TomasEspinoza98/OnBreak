@@ -21,7 +21,7 @@
             <Image Source="../assets/iconos/administracionCliente/agregarPersona/listadoPersonas.png" Height="100" Width="100" RenderTransformOrigin="0.5,0.5"/>
 
         </Controls:Tile>
-        <Controls:Tile Margin="257,168,136.6,230.4" Height="100" Width="100" Background="Black" Click="ActualizarCliente">
+        <Controls:Tile Margin="257,168,136.6,230.4" Height="100" Width="100" Background="Black">
             <Image Source="../assets/iconos/administracionCliente/agregarPersona/actualizarCliente.png" Height="100" Width="100"/>
         </Controls:Tile>
         <Controls:Tile Margin="10,168,383.6,230.4" Height="100" Width="100" Background="Black"  Click="AgregarCliente">

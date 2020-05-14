@@ -37,14 +37,6 @@ namespace OnBreak.vistas {
             listado.ResizeMode = System.Windows.ResizeMode.NoResize;
         }
 
-        private void ActualizarCliente(object sender, RoutedEventArgs e)
-        {
-            ActualizarClientes actualizar = new ActualizarClientes();
-            actualizar.Show();
-            actualizar.ResizeMode = System.Windows.ResizeMode.NoResize;
-
-        }
-
             private void EliminarCliente(object sender, RoutedEventArgs e)
         {
             EliminarCliente eliminar = new EliminarCliente();

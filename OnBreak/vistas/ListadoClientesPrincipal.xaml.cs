@@ -14,7 +14,9 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
 namespace OnBreak.vistas {
+
     public partial class ListadoClientesPrincipal : MetroWindow {
+        
         public ListadoClientesPrincipal() {
             InitializeComponent();
         }

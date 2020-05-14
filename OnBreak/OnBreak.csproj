@@ -64,9 +64,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="vistas\ActualizarClientes.xaml.cs">
-      <DependentUpon>ActualizarClientes.xaml</DependentUpon>
-    </Compile>
     <Compile Include="vistas\EliminarCliente.xaml.cs">
       <DependentUpon>EliminarCliente.xaml</DependentUpon>
     </Compile>

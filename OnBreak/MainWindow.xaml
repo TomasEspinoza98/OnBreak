@@ -10,6 +10,7 @@
         <Grid Margin="0,0,0,321" Background="#1290cb">
             <Image Source="logousado.jpg" Margin="96,0,106,0" HorizontalAlignment="Center" Width="98"/>
         </Grid>
+        
 
         <Controls:Tile Margin="10,115,165,179" Height="Auto" Width="Auto" Background="Black" Click="administracionCliente">
             <Image Source="assets/iconos/ventanaPrincipal/administracionPersonas.png" Height="134" Width="134" RenderTransformOrigin="0.463,0.599"/>
