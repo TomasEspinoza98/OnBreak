@@ -12,7 +12,7 @@
     <Grid Background="#333">
         <Grid Margin="0,0,0,321" Background="#1290cb">
             <Image Source="logousado.jpg" Margin="96,0,106,0" HorizontalAlignment="Center" Width="98"/>
-            <Controls:Tile x:Name="btnAtras" Margin="0,0,317,62" Height="Auto" Width="Auto" Background="#1290cb" Click="btnAtras" RenderTransformOrigin="0.343,0.334">
+            <Controls:Tile Margin="0,0,317,62" Height="Auto" Width="Auto" Background="#1290cb" Click="btnAtras" RenderTransformOrigin="0.343,0.334">
                 <Image Source="../assets/iconos/atras/atras.png" Height="40" Width="24" RenderTransformOrigin="0.494,0.469"/>
             </Controls:Tile>
         </Grid>

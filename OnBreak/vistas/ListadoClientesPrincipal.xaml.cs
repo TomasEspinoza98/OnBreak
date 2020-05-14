@@ -21,10 +21,10 @@ namespace OnBreak.vistas {
             InitializeComponent();
         }
 
-        private void btnAtras(object sender, RoutedEventArgs e) {
+        public void btnAtras(object sender, RoutedEventArgs e) {
             MainWindow ventanaPrincipal = new MainWindow();
             ventanaPrincipal.Show();
-            Close();
+            Close();           
         }
     }
 }
