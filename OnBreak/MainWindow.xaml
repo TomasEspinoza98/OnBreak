@@ -17,7 +17,7 @@
         </Controls:Tile>
 
         <Controls:Tile Margin="165,115,10,179" Height="Auto" Width="Auto" Background="Black" Click="listadoCliente">
-            <Image Source="assets/iconos/ventanaPrincipal/listadoPersonas.png" Height="60" Width="82" RenderTransformOrigin="0.463,0.599"/>
+            <Image Source="assets/iconos/ventanaPrincipal/listadoPersonas.png" Height="136" Width="150" RenderTransformOrigin="0.463,0.599"/>
         </Controls:Tile>
 
         <Controls:Tile Margin="10,264,165,30" Height="Auto" Width="Auto" Background="Black" Click="administracionContrato">

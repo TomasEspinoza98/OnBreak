@@ -31,9 +31,7 @@ namespace OnBreak {
         }
 
         private void listadoCliente(object sender, RoutedEventArgs e) {
-            ListadoClientesPrincipal listClientes = new ListadoClientesPrincipal();
-            listClientes.Show();
-            Close();
+
         }
 
 
