@@ -37,6 +37,7 @@ namespace OnBreak {
         }
 
 
+
         private void administracionContrato(object sender, RoutedEventArgs e) {
 
         }
