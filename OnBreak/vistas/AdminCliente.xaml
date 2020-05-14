@@ -32,6 +32,7 @@
             <Image Source="../assets/iconos/administracionCliente/agregarPersona/eliminarCliente.png" Height="100" Width="100"/>
         </Controls:Tile>
         <DataGrid HorizontalAlignment="Left" Height="172" Margin="10,305,0,0" VerticalAlignment="Top" Width="474"/>
+        
         <Image Source="../assets/iconos/administracionCliente/lupa.jpeg" Margin="339,-135,126.6,134.4" HorizontalAlignment="Center" Width="28" />
     </Grid>
 
